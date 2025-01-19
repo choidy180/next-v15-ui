@@ -17,7 +17,6 @@ const Container = styled.div`
         justify-content: space-between;
         align-items: center;
         transition: 0.2s all ease-in-out;
-        background-color: #DBEAFE;
         border-bottom: 1.4px solid #bbbbbb;
 
         svg {
@@ -28,7 +27,7 @@ const Container = styled.div`
         }
 
         &.focus {
-            background-color: #93C5FD;
+            background-color: #EDEDED;
             svg {
                 transform: scale(1.4) rotate(180deg);
             }
@@ -43,12 +42,8 @@ const Container = styled.div`
         &.focus {
             height: auto;
             padding: 1.25rem;
-            border: 1.4px solid #CECECE;
+            border-bottom: 1.4px solid #CECECE;
         }
-    }
-    .first {
-        border-top-right-radius: 14px;
-        border-top-left-radius: 14px;
     }
     &.last {
         .head {
