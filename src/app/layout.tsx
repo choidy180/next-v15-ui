@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={``}
+        className={`w-full min-h-screen flex flex-col justify-start items-center`}
       >
         {children}
       </body>
