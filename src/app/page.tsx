@@ -3,11 +3,11 @@ import MoveBtnComponent from "./components/move-btn";
 export default function Home() {
     return (
         <div className="w-full max-w-[1024px] flex flex-col justify-start items-center">
+            <title>UI</title>
             <div className="w-full flex justify-center items-center">
-                <h1 className="w-full text-center text-[3rem] mt-20">UI-Component</h1>
-
+                <h1 className="w-full text-center text-[3rem] mt-20">Components</h1>
             </div>
-            <div className="w-full flex flex-row flex-wrap justify-center gap-[14px] items-start mt-[40px]">
+            <div className="w-full flex flex-row flex-wrap justify-center gap-[14px] items-start mt-[40px] mb-[100px]">
                 <MoveBtnComponent text="Accodion" link="/accodion"/>
                 <MoveBtnComponent text="Alert" link="/alert"/>
 
@@ -51,6 +51,51 @@ export default function Home() {
                 <MoveBtnComponent text="Toast" link="/"/>
                 <MoveBtnComponent text="Tooltip" link="/"/>
                 <MoveBtnComponent text="Video" link="/"/>
+            </div>
+
+            <div className="w-full flex justify-center items-center">
+                <h1 className="w-full text-center text-[3rem] mt-20">Forms</h1>
+            </div>
+
+            <div className="w-full flex flex-row flex-wrap justify-center gap-[14px] items-start mt-[40px] mb-[100px]">
+                <MoveBtnComponent text="Input Field" link="/"/>
+                <MoveBtnComponent text="File Input" link="/"/>
+                <MoveBtnComponent text="Search Input" link="/"/>
+                <MoveBtnComponent text="Number Input" link="/"/>
+                <MoveBtnComponent text="Phone Input" link="/"/>
+                <MoveBtnComponent text="Select" link="/"/>
+                <MoveBtnComponent text="Textarea" link="/"/>
+                <MoveBtnComponent text="Timepicker" link="/"/>
+                <MoveBtnComponent text="Checkbox" link="/"/>
+                <MoveBtnComponent text="Radio" link="/"/>
+                <MoveBtnComponent text="Toggle" link="/"/>
+                <MoveBtnComponent text="Slider" link="/"/>
+                <MoveBtnComponent text="Floating Label" link="/"/>
+            </div>
+
+            <div className="w-full flex justify-center items-center">
+                <h1 className="w-full text-center text-[3rem] mt-20">Typography</h1>
+            </div>
+
+            <div className="w-full flex flex-row flex-wrap justify-center gap-[14px] items-start mt-[40px] mb-[100px]">
+                <MoveBtnComponent text="Headings" link="/"/>
+                <MoveBtnComponent text="Paragraphs" link="/"/>
+                <MoveBtnComponent text="Blockquote" link="/"/>
+                <MoveBtnComponent text="Images" link="/"/>
+                <MoveBtnComponent text="Lists" link="/"/>
+                <MoveBtnComponent text="Links" link="/"/>
+                <MoveBtnComponent text="Text" link="/"/>
+                <MoveBtnComponent text="HR" link="/"/>
+            </div>
+
+            <div className="w-full flex justify-center items-center">
+                <h1 className="w-full text-center text-[3rem] mt-20">Plugins</h1>
+            </div>
+
+            <div className="w-full flex flex-row flex-wrap justify-center gap-[14px] items-start mt-[40px] mb-[100px]">
+                <MoveBtnComponent text="Charts" link="/"/>
+                <MoveBtnComponent text="Datatables" link="/"/>
+                <MoveBtnComponent text="WYSIWYG Text Editor" link="/"/>
             </div>
         </div>
     );
