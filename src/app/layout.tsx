@@ -1,3 +1,4 @@
+import Navigation from "./components/navigation";
 import "./globals.css";
 import Providers from "./provider";
 
@@ -12,6 +13,7 @@ export default function RootLayout({
                 className={`w-full min-h-screen flex flex-col justify-start items-center`}
             >
                 <Providers>{children}</Providers>
+                <Navigation/>
             </body>
         </html>
     );
