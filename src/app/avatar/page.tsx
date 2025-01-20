@@ -1,7 +1,9 @@
 import BorderedAvatar from "../components/avatar/bordered-avatar";
 import DefaultAvatar from "../components/avatar/default-avatar";
+import DotIndicatorAvatar from "../components/avatar/dot-indicator";
 import PlaceholderIconAvatar from "../components/avatar/placeholder-icon-avatar";
 import PlaceholderInitialsAvatar from "../components/avatar/placeholder-initials-avatar";
+import StackedAvatar from "../components/avatar/stacked-avatar";
 import TooltipAvatar from "../components/avatar/tooltip-avatar";
 
 const AvatarConponentsPage = () => {
@@ -16,6 +18,8 @@ const AvatarConponentsPage = () => {
             <PlaceholderIconAvatar/>
             <PlaceholderInitialsAvatar/>
             <TooltipAvatar/>
+            <DotIndicatorAvatar/>
+            <StackedAvatar/>
         </div>
     )
 }
