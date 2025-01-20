@@ -9,7 +9,7 @@ import TextAvatar from "../components/avatar/text-avatar";
 import TooltipAvatar from "../components/avatar/tooltip-avatar";
 import UserDropdownAvatar from "../components/avatar/user-dropdown-avatar";
 
-const AvatarConponentsPage = () => {
+const AvatarComponentsPage = () => {
     return (
         <div className="w-full max-w-[1000px] flex flex-col justify-start items-center mb-[100px]">
             <title>Avatar</title>
@@ -30,4 +30,4 @@ const AvatarConponentsPage = () => {
     )
 }
 
-export default AvatarConponentsPage;
+export default AvatarComponentsPage;

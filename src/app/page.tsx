@@ -12,7 +12,7 @@ export default function Home() {
                 <MoveBtnComponent text="Alert" link="/alert"/>
 
                 <MoveBtnComponent text="Avatar" link="/avatar"/>
-                <MoveBtnComponent text="Badge" link="/"/>
+                <MoveBtnComponent text="Badge" link="/badge"/>
                 <MoveBtnComponent text="Banner" link="/"/>
                 <MoveBtnComponent text="Bottom Navigation" link="/"/>
                 <MoveBtnComponent text="Breadcrumbs" link="/"/>

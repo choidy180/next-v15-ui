@@ -6,7 +6,7 @@ import BorderedAlerts from "../components/alert/bordered-alerts";
 import DefaultAlert from "../components/alert/default-alert";
 import DismissingAlerts from "../components/alert/dismissing-alerts";
 
-const AccodianConponentsPage = () => {
+const AccodianComponentsPage = () => {
     return (
         <div className="w-full max-w-[1000px] flex flex-col justify-start items-center mb-[100px]">
             <title>Alert</title>
@@ -23,4 +23,4 @@ const AccodianConponentsPage = () => {
     )
 }
 
-export default AccodianConponentsPage;
+export default AccodianComponentsPage;

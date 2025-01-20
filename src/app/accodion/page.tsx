@@ -1,7 +1,7 @@
 import BorderlessAccodian from "../components/accodion/borderless-accodion";
 import DefaultAccodian from "../components/accodion/default-accodion";
 
-const AccodianConponentsPage = () => {
+const AccodianComponentsPage = () => {
     return (
         <div className="w-full max-w-[1000px] flex flex-col justify-start items-center">
             <title>Accodion</title>
@@ -13,4 +13,4 @@ const AccodianConponentsPage = () => {
     )
 }
 
-export default AccodianConponentsPage;
+export default AccodianComponentsPage;
