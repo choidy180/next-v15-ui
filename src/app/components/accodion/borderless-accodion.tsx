@@ -6,8 +6,13 @@ import styled from "styled-components";
 
 const Container = styled.div`
     width: 100%;
-    max-width: calc(100% - 28px);
+    max-width: calc(100vw - 28px);
     margin-top: 28px;
+    h4 {
+        font-size: 1.5rem;
+        margin-top: 40px;
+        margin-bottom: 4px;
+    }
     .head {
         width: 100%;
         padding: 1.25rem;
@@ -58,6 +63,7 @@ export default function BorderlessAccodian() {
     const [focus3, setFocus3] = useState<boolean>(false);
     return (
         <Container>
+            <h4>Borderless Accodion</h4>
             <div className="container">
                 <div className={`head first ${focus1 === true && 'focus'}`} onClick={()=> setFocus1(!focus1)}>
                     <p>아코디언이 무엇인가요?</p>

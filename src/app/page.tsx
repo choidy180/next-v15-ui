@@ -11,7 +11,7 @@ export default function Home() {
                 <MoveBtnComponent text="Accodion" link="/accodion"/>
                 <MoveBtnComponent text="Alert" link="/alert"/>
 
-                <MoveBtnComponent text="Avatar" link="/"/>
+                <MoveBtnComponent text="Avatar" link="/avatar"/>
                 <MoveBtnComponent text="Badge" link="/"/>
                 <MoveBtnComponent text="Banner" link="/"/>
                 <MoveBtnComponent text="Bottom Navigation" link="/"/>

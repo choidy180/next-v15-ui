@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
     width: 100%;
+    max-width: calc(100vw - 28px);
     display: flex;
     flex-direction: column;
     justify-content: start;
