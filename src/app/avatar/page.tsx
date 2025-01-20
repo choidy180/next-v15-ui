@@ -3,8 +3,11 @@ import DefaultAvatar from "../components/avatar/default-avatar";
 import DotIndicatorAvatar from "../components/avatar/dot-indicator";
 import PlaceholderIconAvatar from "../components/avatar/placeholder-icon-avatar";
 import PlaceholderInitialsAvatar from "../components/avatar/placeholder-initials-avatar";
+import SizesAvatar from "../components/avatar/sizes-avatar";
 import StackedAvatar from "../components/avatar/stacked-avatar";
+import TextAvatar from "../components/avatar/text-avatar";
 import TooltipAvatar from "../components/avatar/tooltip-avatar";
+import UserDropdownAvatar from "../components/avatar/user-dropdown-avatar";
 
 const AvatarConponentsPage = () => {
     return (
@@ -20,6 +23,9 @@ const AvatarConponentsPage = () => {
             <TooltipAvatar/>
             <DotIndicatorAvatar/>
             <StackedAvatar/>
+            <TextAvatar/>
+            <UserDropdownAvatar/>
+            <SizesAvatar/>
         </div>
     )
 }
