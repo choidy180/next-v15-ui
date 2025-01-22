@@ -1,5 +1,9 @@
 import BorderedBadge from "../components/badge/bordered-badge";
+import ButtonWithBadge from "../components/badge/button-with-badge";
+import ChipsDismissibleBadge from "../components/badge/chips-dismissible-badges";
 import DefaultBadge from "../components/badge/default-badge";
+import IconWithBadge from "../components/badge/icon-with-badge";
+import NotificationBadge from "../components/badge/notification-badge";
 import PillsBadge from "../components/badge/pills-badge";
 
 const BadgeComponentsPage = () => {
@@ -12,6 +16,10 @@ const BadgeComponentsPage = () => {
             <DefaultBadge/>
             <BorderedBadge/>
             <PillsBadge/>
+            <IconWithBadge/>
+            <NotificationBadge/>
+            <ButtonWithBadge/>
+            <ChipsDismissibleBadge/>
         </div>
     )
 }
