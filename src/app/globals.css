@@ -28,3 +28,36 @@ body {
     position: relative;
     font-family: 'Paperlogy-5Medium';
 }
+
+.blue {
+    color: #3742fa;
+    background-color: #DBEAFE;
+}
+.dark {
+    color: #1e272e;
+    background-color: #F3F4F6;
+}
+.red {
+    color: #EA2027;
+    background-color: #FEE2E2;
+}
+.green {
+    color: #0be881;
+    background-color: #DCFCE7;
+}
+.yellow {
+    color: #F79F1F;
+    background-color: #FEF9C3;
+}
+.indigo {
+    color: #4834d4;
+    background-color: #E0E7FF;
+}
+.purple {
+    color: #c56cf0;
+    background-color: #F3E8FF;
+}
+.pink {
+    color: #FC427B;
+    background-color: #FCE7F3;
+}
