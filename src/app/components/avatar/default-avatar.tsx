@@ -24,6 +24,8 @@ const Container = styled.div`
     }
     img {
         border-radius: 0.25rem;
+        height: 60px;
+        object-fit: cover;
 
         &.round {
             border-radius: 9999px;

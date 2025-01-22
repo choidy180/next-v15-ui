@@ -36,6 +36,15 @@ const Container = styled.div`
     }
     div.content {
         position: relative;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        &.round {
+            border-radius: 9999px;
+        }
         .tooltip {
             display: none;
             width: 112px;
@@ -74,13 +83,12 @@ export default function TooltipAvatar() {
         <Container>
             <h4>Avatar Tooltip</h4>
             <div className="box">
-                <div className="content">
+                <div className="content round">
                     <Image
                         src={avatarImage}
                         width={60}
                         height={60}
                         alt="Avatar"
-                        className="round"
                     />
                     <div className="tooltip">
                         <span>IMAGE-1</span>

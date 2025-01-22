@@ -33,6 +33,31 @@ const Container = styled.div`
         margin-right: 10px;
         cursor: pointer;
 
+        img.avatar60{
+            height: 60px;
+            object-fit: cover;
+        }
+        img.avatar80{
+            height: 80px;
+            object-fit: cover;
+        }
+        img.avatar100{
+            height: 100px;
+            object-fit: cover;
+        }
+        img.avatar140{
+            height: 140px;
+            object-fit: cover;
+        }
+        img.avatar200{
+            height: 200px;
+            object-fit: cover;
+        }
+        img.avatar260{
+            height: 260px;
+            object-fit: cover;
+        }
+
         .black-box {
             display: none;
             position: absolute;
@@ -73,7 +98,7 @@ export default function SizesAvatar() {
                         width={60}
                         height={60}
                         alt="Avatar60"
-                        className=""
+                        className="avatar60"
                     />
                     <div className="black-box"/>
                     <p>60</p>
@@ -84,7 +109,7 @@ export default function SizesAvatar() {
                         width={80}
                         height={80}
                         alt="Avatar80"
-                        className=""
+                        className="avatar80"
                     />
                     <div className="black-box"/>
                     <p>80</p>
@@ -95,7 +120,7 @@ export default function SizesAvatar() {
                         width={100}
                         height={100}
                         alt="Avatar100"
-                        className=""
+                        className="avatar100"
                     />
                     <div className="black-box"/>
                     <p>100</p>
@@ -106,7 +131,7 @@ export default function SizesAvatar() {
                         width={140}
                         height={140}
                         alt="Avatar140"
-                        className=""
+                        className="avatar140"
                     />
                     <div className="black-box"/>
                     <p>140</p>
@@ -117,7 +142,7 @@ export default function SizesAvatar() {
                         width={200}
                         height={200}
                         alt="Avatar200"
-                        className=""
+                        className="avatar200"
                     />
                     <div className="black-box"/>
                     <p>200</p>
@@ -128,7 +153,7 @@ export default function SizesAvatar() {
                         width={260}
                         height={260}
                         alt="Avatar260"
-                        className=""
+                        className="avatar260"
                     />
                     <div className="black-box"/>
                     <p>260</p>

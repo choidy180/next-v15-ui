@@ -26,6 +26,9 @@ const Container = styled.div`
     img {
         border-radius: 0.25rem;
         margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
         &:hover {
             cursor: pointer;
         }

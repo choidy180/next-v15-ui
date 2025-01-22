@@ -25,6 +25,9 @@ const Container = styled.div`
     }
     img {
         border-radius: 0.25rem;
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
         &:hover {
             cursor: pointer;
         }
@@ -35,6 +38,12 @@ const Container = styled.div`
     }
     div.content {
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &.round {
+            border-radius: 9999px;
+        }
     }
     .dot {
         position: absolute;

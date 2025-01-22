@@ -26,6 +26,8 @@ const Container = styled.div`
         border-radius: 0.25rem;
         padding: 4px;
         border: 2px solid #c7c7c7;
+        height: 60px;
+        object-fit: cover;
         &.round {
             border-radius: 9999px;
         }
