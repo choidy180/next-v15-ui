@@ -13,7 +13,7 @@ export default function Home() {
 
                 <MoveBtnComponent text="Avatar" link="/avatar"/>
                 <MoveBtnComponent text="Badge" link="/badge"/>
-                <MoveBtnComponent text="Banner" link="/"/>
+                <MoveBtnComponent text="Banner" link="/banner"/>
                 <MoveBtnComponent text="Bottom Navigation" link="/"/>
                 <MoveBtnComponent text="Breadcrumbs" link="/"/>
                 <MoveBtnComponent text="Buttons" link="/"/>
